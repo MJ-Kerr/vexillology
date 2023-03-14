@@ -1,0 +1,22 @@
+.background {
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+.cross {
+  background: rgb(255, 255, 255);
+  height: 240px;
+  position: relative;
+  width: 80px;
+  margin: 0 auto;
+  top: 25%;
+}
+.cross:after {
+  background: rgb(255, 255, 255);
+  content: '';
+  height: 80px;
+  left: -80px;
+  position: absolute;
+  top: 80px;
+  width: 240px;
+}
